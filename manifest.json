@@ -1,0 +1,47 @@
+
+{
+
+  "manifest_version": 2,
+  "name": "ff_links",
+  "version": "0.1",
+  "description": "Pop-up linkbox add-on for firefox",
+  "homepage_url": "https://consolelogger.com",
+
+  "icons": {
+  "48": "icons/gear.png"
+  },
+
+  "permissions": [
+  "activeTab",
+  "storage"
+  ],
+
+
+  "browser_action": {
+  "default_icon": "icons/gear32.png",
+  "default_title": "ff_links",
+  "default_popup": "popup/ff_links.html"
+  }
+  ,
+
+  "options_ui": {
+  "page": "options.html"
+  },
+
+
+  "browser_specific_settings": {
+    "gecko": {
+    "id": "ff_links@example.com"
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
